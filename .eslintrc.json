@@ -1,3 +1,11 @@
 {
-    "extends": "airbnb"
+  "extends": "airbnb-base", // this line should already be here.
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "quotes": "off"
+  },
+  "env": {
+    "browser": true
+  }
 }
