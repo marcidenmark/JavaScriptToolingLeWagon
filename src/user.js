@@ -1,5 +1,11 @@
+import { capitalize } from './helpers';
+
 function greetUser(name) {
- console.log (`hello ${name}`);
+ //es6
+ console.log (`hello ${capitalize(name)}`);
+ // without es6 also no =>
+ console.log("hello " + capitalize(name));
 }
 
-greetUser("Marci");
+greetUser("marci");
+greetUser("cool people");
